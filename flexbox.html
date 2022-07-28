@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.flex{
+			display: flex;
+			width: 800px;
+           height: 250px;
+           background-color: #11C5C6;
+           border: 2px solid black;
+           padding: 20px;
+           border-radius: 10px;
+           margin: 0 auto;
+           /*flex-direction: column;*/
+		}
+		.box{
+			background-color: #FBDD1C;
+			border-radius: 10px;
+			margin: 10px;
+			border: 1px solid white;
+		}
+		.first{
+			flex-grow: 1;
+		}
+		.second{
+			flex-grow: 1;
+		}
+		.third{
+			flex-grow: 1;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="flex">
+		<div class="box first"></div>
+		<div class="box second"></div>
+		<div class="box third"></div>
+	</div>
+
+</body>
+</html>
